@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin libX11-devel libXext libXrender randrproto renderproto xextproto xproto
+sdesc: "Xorg X RandR extension library (development)"
+ldesc: "Xorg X RandR extension library"
