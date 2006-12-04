@@ -3,29 +3,29 @@ libXrandr
 Xorg X RandR extension library
 
 Runtime requirements:
-  cygwin-1.5.20-1
-  libX11_6-1.0.1-1
-  libXext6-1.0.1-1
-  libXrender1-0.9.1-1
+  cygwin-1.5.22-1
+  libX11_6-1.1.1-1
+  libXext6-1.0.2-1
+  libXrender1-0.9.2-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.20-1
-  autoconf2.5-2.59-2
+  cygwin-1.5.22-1
+  autoconf2.5-2.60-1
   automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.2-1
+  binutils-20060817-1
+  cygport-0.2.6-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
-  libtool1.5-1.5.22-1
-  make-3.80-1
-  pkg-config-0.20-1
+  libtool1.5-1.5.23a-1
+  make-3.81-1
+  pkg-config-0.21-1
   sed-4.1.5-1
-  randrproto-1.1.2-1
+  randrproto-1.2.0-1
   renderproto-0.9.2-1
   xextproto-7.0.2-1
-  xorg-util-macros-1.0.2-1
-  xproto-7.0.7-1
+  xorg-util-macros-1.1.2-1
+  xproto-7.0.9-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -36,30 +36,28 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libXrandr-1.1.1-X-src.tar.bz2
+  unpack libXrandr-1.1.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libXrandr-1.1.1-X.cygport all
+  cygport ./libXrandr-1.1.2-X.cygport all
 
 This will create:
-  /usr/src/libXrandr-1.1.1-X-src.tar.bz2
-  /usr/src/libXrandr-1.1.1-X.tar.bz2
-  /usr/src/libXrandr2-1.1.1-X.tar.bz2
+  /usr/src/libXrandr-1.1.2-X-src.tar.bz2
+  /usr/src/libXrandr-1.1.2-X.tar.bz2
+  /usr/src/libXrandr-devel-1.1.2-X.tar.bz2
+  /usr/src/libXrandr2-1.1.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the main package:
+Files included in the binary packages:
 
-  /usr/include/X11/extensions/Xrandr.h
-  /usr/lib/libXrandr.dll.a
-  /usr/lib/libXrandr.la
-  /usr/lib/pkgconfig/xrandr.pc
-  /usr/share/doc/Cygwin/libXrandr-1.1.1.README
-  /usr/share/doc/libXrandr-1.1.1/AUTHORS
-  /usr/share/doc/libXrandr-1.1.1/COPYING
-  /usr/share/doc/libXrandr-1.1.1/ChangeLog
-  /usr/share/doc/libXrandr-1.1.1/INSTALL
+(libXrandr)
+  /usr/share/doc/Cygwin/libXrandr-1.1.2.README
+  /usr/share/doc/libXrandr-1.1.2/AUTHORS
+  /usr/share/doc/libXrandr-1.1.2/COPYING
+  /usr/share/doc/libXrandr-1.1.2/ChangeLog
+  /usr/share/doc/libXrandr-1.1.2/INSTALL
   /usr/share/man/man3/XRRConfig.3.gz
   /usr/share/man/man3/XRRConfigCurrentConfiguration.3.gz
   /usr/share/man/man3/XRRConfigCurrentRate.3.gz
@@ -78,13 +76,21 @@ Files included in the main package:
   /usr/share/man/man3/XRRSetScreenConfigAndRate.3.gz
   /usr/share/man/man3/Xrandr.3.gz
 
-Files included in the runtime library package:
-
+(libXrandr2)
   /usr/bin/cygXrandr-2.dll
+
+(libXrandr-devel)
+  /usr/include/X11/extensions/Xrandr.h
+  /usr/lib/libXrandr.dll.a
+  /usr/lib/libXrandr.la
+  /usr/lib/pkgconfig/xrandr.pc
 
 ------------------
 
 Port Notes:
+
+----- version 1.1.2-1 -----
+X11R7.2 version bump.
 
 ----- version 1.1.1-1 -----
 X11R7.1 version bump.
