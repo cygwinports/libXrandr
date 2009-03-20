@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libX11_6 libXext6 libXrender1
+requires: cygwin libgcc1 libX11_6 libXext6 libXrender1
 external-source: libXrandr
 sdesc: "X.Org X RandR extension library (runtime)"
 ldesc: "X.Org X RandR extension library"
