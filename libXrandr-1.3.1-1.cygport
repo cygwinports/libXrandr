@@ -1,8 +1,0 @@
-inherit xorg
-
-abi=2
-PKG_NAMES="${PN} ${PN}${abi} ${PN}-devel"
-PKG_HINTS="setup runtime devel"
-libXrandr_CONTENTS=	# empty
-libXrandr2_CONTENTS="usr/bin/*-${abi}.dll usr/share/doc/"
-libXrandr_devel_CONTENTS='usr/include/ usr/lib/ usr/share/man/'

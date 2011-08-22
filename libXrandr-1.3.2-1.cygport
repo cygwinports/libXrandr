@@ -1,0 +1,6 @@
+inherit xorg
+
+PKG_NAMES="${PN} libXrandr2 libXrandr-devel"
+PKG_HINTS="setup runtime devel"
+libXrandr2_CONTENTS="usr/bin/cygXrandr-2.dll usr/share/doc/"
+libXrandr_devel_CONTENTS='usr/include/ usr/lib/ usr/share/man/'
