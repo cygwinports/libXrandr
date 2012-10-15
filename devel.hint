@@ -1,5 +1,0 @@
-category: X11
-requires: libX11-devel libXext-devel libXrender-devel randrproto renderproto xextproto xproto libXrandr2
-external-source: libXrandr
-sdesc: "X.Org X RandR extension library (development)"
-ldesc: "X.Org X RandR extension library"

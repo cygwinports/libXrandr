@@ -1,6 +1,10 @@
+NAME="libXrandr"
+VERSION=1.4.0
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X.Org X RandR extension library"
 inherit xorg
 
-PKG_NAMES="${PN} libXrandr2 libXrandr-devel"
-PKG_HINTS="setup runtime devel"
+PKG_NAMES="libXrandr2 libXrandr-devel"
 libXrandr2_CONTENTS="usr/bin/cygXrandr-2.dll usr/share/doc/"
 libXrandr_devel_CONTENTS='usr/include/ usr/lib/ usr/share/man/'
