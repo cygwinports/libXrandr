@@ -1,10 +1,14 @@
 inherit xorg
 
 NAME="libXrandr"
-VERSION=1.4.1
+VERSION=1.4.2
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="X.Org X RandR extension library"
+DESCRIPTION="Xrandr is a simple library designed to interface the X Resize
+and Rotate Extension.  This allows clients to change the size and rotation
+of the root window of a screen, along with the ability to reflect the screen
+about either axis (if supported by the implementation)."
 
 PKG_NAMES="libXrandr2 libXrandr-devel"
 libXrandr2_CONTENTS="usr/bin/cygXrandr-2.dll usr/share/doc/"
