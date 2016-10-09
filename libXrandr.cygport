@@ -1,7 +1,7 @@
 inherit xorg
 
 NAME="libXrandr"
-VERSION=1.5.0
+VERSION=1.5.1
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="X.Org X RandR extension library"
